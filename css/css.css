@@ -1,0 +1,47 @@
+*{padding: 0;margin: 0;font-size: 180px}
+html,body{width: 100%;height: 100%;}
+p{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 30%;
+}
+.one{
+    background: lightgreen;
+    animation: one 10s infinite;
+}
+.two{
+    background: red;
+    animation: two 10s infinite;
+}
+.three{background: goldenrod;animation: three 10s infinite;}
+.four{background: black;color: #ffffff;animation: four 10s infinite;}
+@keyframes one {
+    0%{opacity: 0;}
+    20%{opacity: 1;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes two {
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 1;}
+    60%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes three {
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 1;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes four {
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    60%{opacity: 0;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+}
